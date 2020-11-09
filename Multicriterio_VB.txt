@@ -1,0 +1,10 @@
+'Multi criteria filtter
+
+Range("Data_Base_Name").AdvancedFilter Action:=xlFilterCopy, CriteriaRange:=Range( _
+        "Filtters_Range"), CopyToRange:=Range("Space_to_copy"), Unique:=False
+
+
+'Filtro de criterios múltiples
+
+Range("Nombre_de_la_tabla").AdvancedFilter Action:=xlFilterCopy, CriteriaRange:=Range( _
+        "Rango_criterios_filtro"), CopyToRange:=Range("Rango_espacio_para copiar"), Unique:=False
